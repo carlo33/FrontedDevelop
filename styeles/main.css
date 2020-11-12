@@ -1,0 +1,35 @@
+.main{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0px 0px 40px 40px;
+}
+.main__title{
+  color: black;
+  font-size: 20px;
+}
+
+.categories__title{
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  padding-left: 30px;
+  width: 100%;
+}
+.input{
+  border:2px solid black;
+  border-radius: 25px;
+  color:black;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  padding: 0px 20px;
+  width: 70%;
+  background-color: rgba(255,255,255,0.1);
+  outline: none; /*quitar el borde del imput*/
+}
+::placeholder{
+  color: black;
+}
